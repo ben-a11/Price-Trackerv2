@@ -15,7 +15,7 @@ module.exports = {
     ADMINS: process.env.ADMINS || '',
     BOT_TOKEN: process.env.BOT_TOKEN || '',
     DB_URL: process.env.DB_URL || '',
-    WORKER_URL: process.env.WORKER_URL || '',
+    WORKER_URL: process.env.WORKER_URL || 'https://red-meadow-f568.atozpricetracker68.workers.dev/',
     API_KEY: process.env.API_KEY || '', // Generate any API Key and pass it when accessing the API.
     LIMIT: Number(process.env.LIMIT) || '100', // Maximum number of products can be added by a user at a time.
 }
