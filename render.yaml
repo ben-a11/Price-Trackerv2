@@ -1,0 +1,8 @@
+services:
+  # A Docker web service
+  - type: web
+    name: ben-a11
+    env: docker
+    region: Singapore
+    plan: free
+    envVars:
